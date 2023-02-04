@@ -1,15 +1,15 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Teton Private Limited',
+        company: 'Varaisy Pvt Ltd',
         jobtitle: 'Software Engineer I',
         startYear: 'Jan 2022',
         endYear: 'Present'
     },
     {
         id: 2,
-        company: 'Fiverr(freelance)',
-        jobtitle: 'Full-Stack Developer',
+        company: 'RamInfo',
+        jobtitle: 'Intern',
         startYear: 'Jun 2021',
         endYear: 'Jan 2022'
     },

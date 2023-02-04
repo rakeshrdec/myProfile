@@ -25,7 +25,7 @@ const BlogPageUI = ({ theme, classes, filteredArticles, setSearch, search }) => 
           <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach blog..." className={classes.search} />
         </div>
         <div className="blogs--container">
-          <Grid className="blog-grid" container direction="row" alignItems="center" justifyContent="center">
+          {/* <Grid className="blog-grid" container direction="row" alignItems="center" justifyContent="center">
             {filteredArticles.reverse().map(blog => (
               <SingleBlog
                 theme={theme}
@@ -38,7 +38,7 @@ const BlogPageUI = ({ theme, classes, filteredArticles, setSearch, search }) => 
                 id={blog.id}
               />
             ))}
-          </Grid>
+          </Grid> */}
         </div>
       </div>
     </div>
