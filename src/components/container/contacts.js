@@ -122,6 +122,9 @@ const Contacts = () => {
             setEmail('');
             setMessage('');
             setOpen(false);
+            setTimeout(()=>{
+              setSuccess(false);
+            },2000)
           }, (error) => {
             console.log(error.text);
           });
