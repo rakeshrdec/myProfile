@@ -9,6 +9,7 @@ import About from '../../components/core-ui/about/about'
 import Education from '../../components/core-ui/education/education'
 import Experience from '../../components/core-ui/experience/experience'
 import Skills from '../../components/core-ui/skills/skills'
+import Certificate from '../../components/core-ui/certificate/certificate'
 import { headerData } from '../../data/headerData'
 
 function HomePage() {
@@ -21,8 +22,9 @@ function HomePage() {
             <Landing />
             <About />
             <Experience />
-            <Skills />
             {/* <Certificate /> */}
+            <Skills />
+            <Certificate />
             <Projects />
             <Education />
             <Blog />

@@ -12,7 +12,8 @@ import React, { useContext } from "react";
 import { HiExternalLink } from "react-icons/hi";
 import Slider from "react-slick";
 import { ThemeContext } from "../../../contexts/theme-context";
-import { certificateData } from "../../../data/certificate-data";
+// import { certificateData } from "../../../data/certificate-data";
+import { certificateData } from "../../../data/certificateData";
 import "./certificate.css";
 
 const Certificate = () => {
@@ -65,11 +66,11 @@ const Certificate = () => {
                   alignItems: "center",
                 }}>
                 <Typography>{item.title}</Typography>
-                <IconButton>
+                {/* <IconButton>
                   <Link href={item.link}>
                     <HiExternalLink />
                   </Link>
-                </IconButton>
+                </IconButton> */}
               </CardContent>
             </CardActionArea>
           </Card>

@@ -1,8 +1,9 @@
 export const skillsData = [
+    'python',
     'HTML',
     'Javascript',
     'CSS',
-    'Figma',
+    'tensorflow',
     'Adobe XD',
     'React',
     'Docker',
@@ -11,13 +12,16 @@ export const skillsData = [
     'Linux',
     'Ansible',
     'Git',
-    // 'MongoDB',
-    // 'Tailwind',
+    'mongoDB',
+    'numpy',
+    'pytorch',
+    'opencv',
     'MySQL',
-    // 'PostgreSQL',
+    'postgresql',
     'MaterialUI',
     'Firebase',
     'Aws',
+    'gcp',
     'Bash Shell'
 ]
 
